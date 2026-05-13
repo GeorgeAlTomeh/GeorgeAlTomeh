@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Tomeh – Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .project h3 {
+            margin-bottom: 5px;
+        }
+        .proof {
+            background: #f9f9f9;
+            padding: 8px 12px;
+            border-left: 4px solid #3498db;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .proof a {
+            margin-right: 15px;
+            display: inline-block;
+        }
+        .skills span {
+            display: inline-block;
+            background: #e1e1e1;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .photo-caption {
+            font-size: 0.8em;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>George Tomeh</h1>
+    <p><strong>Syrian student | Hardware & Software Developer | Scout Leader | Violinist</strong></p>
+    <p>I build embedded systems, full‑stack IoT devices, and games. I lead my school's competitive programming team (SCP), serve as Co-Leader in my scout troop, debate, and play violin.</p>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>ESP32 Temperature Monitor + Node Server</h3>
+        <p>esp32 based IoT device that reads temperature from an LM35 sensor, displays it on the LCD screen, and then sends data to a custom Node.js server. Web dashboard shows live data.</p>
+        <div class="proof">
+            <strong> Proof:</strong><br>
+            <a href="https://github.com/GeorgeAlTomeh/esp32-temprature-monitor" target="_blank"> GitHub Repo (code + wiring)</a>
+            <a href="https://youtu.be/xxxxxx" target="_blank"> Video Demo (LCD & web dashboard)</a>
+            <a href="https://GeorgeAlTomeh.github.io/GeorgeAlTomeh/esp32-temprature-monitor-photo" target="_blank"> Photo of setup</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>RFID Access Control (No Keypad)</h3>
+        <p>RFID‑based lock with servo, buzzer, and LCD. Authorises cards, lockout after 3 wrong attempts. Demonstrates physical security.</p>
+        <div class="proof">
+            <strong> Proof:</strong><br>
+            <a href="https://github.com/GeorgeAlTomeh/esp32-vault" target="_blank"> GitHub Repo</a>
+            <a href="https://youtu.be/yyyyy" target="_blank"> Video Demo (card tap → servo unlock)</a>
+            <a href="https://GeorgeAlTomeh.github.io/GeorgeAlTomeh/esp32-vault-photo" target="_blank"> Breadboard photo</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Team Game – "Scout Adventure" (Godot)</h3>
+        <p>Co‑developed a 2D platformer. I wrote gameplay code, designed levels, and composed the violin soundtrack.</p>
+        <div class="proof">
+            <strong> Proof:</strong><br>
+            <a href="https://github.com/GeorgeAlTomeh/fight-the-dudes-game" target="_blank"> GitHub Repo (source code)</a>
+            <a href="https://" target="_blank"> Game Website</a>
+            <a href="https://youtu.be/wwwwww" target="_blank"> Game trailer / gameplay</a>
+            <a href="https://GeorgeAlTomeh.github.io/GeorgeAlTomeh/fight-the-dudes-screenshot" target="_blank"> Screenshot</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Clean Energy Fan (Team Project)</h3>
+        <p>Built a small wind‑powered fan with two classmates. Video featured on school facebook page.</p>
+        <div class="proof">
+            <strong> Proof:</strong><br>
+            <a href="https://facebook.com" target="_blank"> School page (video)</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Laser Data Transmitter</h3>
+        <p> communication link using laser and a small solar panel – transmits short sound waves over distance.</p>
+        <div class="proof">
+            <strong> Proof:</strong><br>
+            <a href="https://github.com/GeorgeAlTomeh/laser-data-transmisson" target="_blank"> GitHub Repo (code + circuit diagram)</a>
+            <a href="https://youtu.be/vvvvvvv" target="_blank"> Video Demo (laser playing music)</a>
+            <a href="https://GeorgeAlTomeh.github.io/GeorgeAlTomeh/laser-data-transmission-photo" target="_blank"> Laser setup photo</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Web‑Controlled Firework Thrower (safe demo)</h3>
+        <p>Remote ignition using ESP32 relay module. Used only for safe, low‑power demonstration (no actual fireworks or igniters).</p>
+        <div class="proof">
+            <strong> Proof:</strong><br>
+            <a href="https://github.com/GeorgeAlTomeh/esp32-firework-thrower" target="_blank"> GitHub Repo</a>
+            <a href="https://youtu.be/uuuuuu" target="_blank"> Video of mechanism triggering (safe load)</a>
+        </div>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>C++ / Arduino</span>
+        <span>ESP32</span>
+        <span>MERN Stack</span>
+        <span>Godot (game dev)</span>
+        <span>Python</span>
+        <span>HTML/CSS/JS</span>
+        <span>Git & GitHub</span>
+    </div>
+
+    <h2>Leadership & Arts</h2>
+    <ul>
+        <li><strong>SCP Team Leader</strong> – led 8 members to regional qualification, mentored 3 juniors.  
+            <span class="proof-inline"> <a href="#">Competition certificate (PDF)</a> | <a href="#">Team photo</a></span>
+        </li>
+        <li><strong>Scout Co-Leader </strong> – organised ....
+            <span class="proof-inline"> <a href="#">Scout rank certificate</a> | <a href="#">Service project photos</a> | <a href="#">Letter from scout leader</a></span>
+        </li>
+        <li><strong>Debate Team</strong> – Lincoln‑Douglas competitor, finalist in 3 tournaments.  
+            <span class="proof-inline"> <a href="#">Tournament awards (PDF)</a> | <a href="#">Coach recommendation letter</a></span>
+        </li>
+        <li><strong>Violin</strong> – 12 years, perform with school orchestra and scout events.  
+            <span class="proof-inline"> <a href="#">Recording (YouTube unlisted)</a> | <a href="#">Concert program</a> | <a href="#">Music teacher letter</a></span>
+        </li>
+    </ul>
+
+    <h2>Certificates & Self‑Study (Proof)</h2>
+    <ul>
+        <li><strong>Sololearn</strong> – Python, JavaScript, HTML/CSS.  
+            <span class="proof-inline"> <a href="#">Certificate screenshots (PDF)</a></span>
+        </li>
+        <li><strong>Front‑end projects</strong> – portfolio website, dashboard for temperature monitor.  
+            <span class="proof-inline"> <a href="https://github.com/GeorgeAlTomeh/GeorgeAlTomeh" target="_blank">GitHub repo for portfolio</a></span>
+        </li>
+        <li><strong>Self‑taught electronics</strong> – built all ESP32 projects from scratch.  
+            <span class="proof-inline"> <a href="#">Photos of breadboards / schematics</a></span>
+        </li>
+    </ul>
+
+    <h2>Contact & Full Portfolio</h2>
+    <div class="contact">
+        <p> Email: georgetoumeh134@example.com<br>
+         GitHub: <a href="https://github.com/GeorgeAlTomeh" target="_blank">github.com/yourusername</a><br>
+         YouTube (demos): <a href="https://youtube.com/c/ggggg" target="_blank">youtube.com/c/yourchannel</a><br>
+         This website: <a href="https://GeorgeAlTomeh.github.io/GeorgeAlTomeh" target="_blank">GeorgeAlTomeh.github.io/GeorgeAlTomeh</a>
+        </p>
+        <p><em>All code, schematics, and demo videos are linked above. Letters of recommendation available on request.</em></p>
+    </div>
+</div>
+</body>
+</html>
